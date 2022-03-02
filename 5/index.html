@@ -12,11 +12,11 @@
   <header class="header">
     <div class="container">
       <a class="header__logo header-logo">
-        <img src="#" alt="" class="header-logo__text">
+        <img src="img/header-logo-text.svg" alt="" class="header-logo__text">
         <!-- img -->
       </a>
-      <a href="#" class="header__telephone">+7 495 322 54 48</a>
-      <a href="#" class="header__btn">Личный кабинет</a>
+      <a href="#" class="telephone-link">+7 495 322 54 48</a>
+      <a href="#" class="header__link">Личный кабинет</a>
       <nav class="header__nav header-nav">
         <ul class="header-nav__list">
           <li class="header-nav__item">
@@ -45,7 +45,7 @@
   </header>
 <!-- -------------------------/header------------------------------- -->
 <!-- -------------------------main------------------------------- -->
-  <main>
+  <main class="main">
 <!-- -------------------------section-offer------------------------------- -->
     <section class="offer">
       <div class="container">
@@ -56,12 +56,12 @@
             <p class="offer-item__price">от 55 000 р</p>
             <a href="" class="offer-item__link">Подробнее</a>
           </li>
-          <li class="offer__item">
+          <li class="offer__item offer-item">
             <h3 class="offer-item__title">Горящий тур на остров Крит</h3>
             <p class="offer-item__price">от 30 000 р</p>
             <a href="" class="offer-item__link">Подробнее</a>
           </li>
-          <li class="offer__item">
+          <li class="offer__item offer-item">
             <h3 class="offer-item__title">Номера категории люкс</h3>
             <p class="offer-item__price">от 5000 р</p>
             <a href="" class="offer-item__link">Подробнее</a>
@@ -72,78 +72,154 @@
 <!-- -------------------------/section-offer------------------------------- -->
 <!-- -------------------------section-about------------------------------- -->
     <section class="about">
-      <h2 class="section-title">О нас</h2>
-      <p class="about__text">Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.</p>
+      <div class="container">
+        <h2 class="section-title">О нас</h2>
+        <p class="about__text">Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации требуют определения и уточнения существенных финансовых и административных условий.</p>
+      </div>
     </section>
 <!-- -------------------------/section-about------------------------------- -->
 <!-- -------------------------section-services------------------------------- -->
     <section class="services">
-      <h2 class="section-title">Услуги</h2>
-      <ul class="services__list">
-        <li class="services__item services-item">
-          <div>картинка</div>
-          <a href="#" class="services-item__link">Эксклюзивное обслуживание</a>
-          <p class="services-item__text">Равным образом постоянный количественный рост и сфера нашей активности</p>
-        </li>
-        <li class="services__item">
-          <div>картинка</div>
-          <a href="#" class="services-item__link">Сауны, бассейны, бани, фитнес-залы</a>
-          <p class="services-item__text">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
-        </li>
-        <li class="services__item">
-          <div>картинка</div>
-          <a href="#" class="services-item__link">Аренда банкетных залов</a>
-          <p class="services-item__text">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
-        </li>
-        <li class="services__item">
-          <div>картинка</div>
-          <a href="#" class="services-item__link">Охраняемые автомобильные стоянки</a>
-          <p class="services-item__text">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
-        </li>
-      </ul>
+      <div class="container">
+        <h2 class="section-title">Услуги</h2>
+        <ul class="services__list">
+          <li class="services__item services-item">
+            <a href="#" class="services-item__link">Эксклюзивное обслуживание</a>
+            <p class="services-item__text">Равным образом постоянный количественный рост и сфера нашей активности</p>
+          </li>
+          <li class="services__item services-item">
+            <a href="#" class="services-item__link">Сауны, бассейны, бани, фитнес-залы</a>
+            <p class="services-item__text">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+          </li>
+          <li class="services__item services-item">
+            <a href="#" class="services-item__link">Аренда банкетных залов</a>
+            <p class="services-item__text">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
+          </li>
+          <li class="services__item services-item">
+            <a href="#" class="services-item__link">Охраняемые автомобильные стоянки</a>
+            <p class="services-item__text">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
+          </li>
+        </ul>
+      </div>
     </section>
 <!-- -------------------------/section-services------------------------------- -->
 <!-- -------------------------section-advantages------------------------------- -->
     <section class="advantages">
-      <h2 class="section-title">Преимущества</h2>
-      <ul class="advantages__list">
-        <li class="advantages_item advantages-item">
-          <!-- img -->
-          <p class="advantages-item_text">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
-        </li>
-        <li class="advantages_item advantages-item">
-          <!-- img -->
-          <p class="advantages-item_text">Значимость этих проблем настолько очевидна, что вопрос остается открытым</p>
-        </li>
-        <li class="advantages_item advantages-item">
-          <!-- img -->
-          <p class="advantages-item_text">Таким образом реализация плановых заданий играет важную роль для понимания</p>
-        </li>
-        <li class="advantages_item advantages-item">
-          <!-- img -->
-          <p class="advantages-item_text">Повседневная практика показывает, что сложившаяся структура организации</p>
-        </li>
-        <li class="advantages_item advantages-item">
-          <!-- img -->
-          <p class="advantages-item_text">Равным образом рамки и место обучения кадров способствует подготовки сотрудника</p>
-        </li>
-        <li class="advantages_item advantages-item">
-          <!-- img -->
-          <p class="advantages-item_text">Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса </p>
-        </li>
-        <li class="advantages_item advantages-item">
-          <!-- img -->
-          <p class="advantages-item_text">Повседневная практика показывает, что дальнейшее развитие различных форм</p>
-        </li>
-        <li class="advantages_item advantages-item">
-          <!-- img -->
-          <p class="advantages-item_text">Значимость этого настолько очевидна, что консультация наших экспертов помогает</p>
-        </li>
-      </ul>
+      <div class="container">
+        <h2 class="section-title">Преимущества</h2>
+        <ul class="advantages__list">
+          <li class="advantages__item advantages-item">
+            <div class="advantages-item__img"></div>
+            <p class="advantages-item__text">Идейные соображения высшего порядка, а также постоянный количественный рост</p>
+          </li>
+          <li class="advantages__item advantages-item">
+            <div class="advantages-item__img"></div>
+            <p class="advantages-item__text">Значимость этих проблем настолько очевидна, что вопрос остается открытым</p>
+          </li>
+          <li class="advantages__item advantages-item">
+            <div class="advantages-item__img"></div>
+            <p class="advantages-item__text">Таким образом реализация плановых заданий играет важную роль для понимания</p>
+          </li>
+          <li class="advantages__item advantages-item">
+            <div class="advantages-item__img"></div>
+            <p class="advantages-item__text">Повседневная практика показывает, что сложившаяся структура организации</p>
+          </li>
+          <li class="advantages__item advantages-item">
+            <div class="advantages-item__img"></div>
+            <p class="advantages-item__text">Равным образом рамки и место обучения кадров способствует подготовки сотрудника</p>
+          </li>
+          <li class="advantages__item advantages-item">
+            <div class="advantages-item__img"></div>
+            <p class="advantages-item__text">Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса </p>
+          </li>
+          <li class="advantages__item advantages-item">
+            <div class="advantages-item__img"></div>
+            <p class="advantages-item__text">Повседневная практика показывает, что дальнейшее развитие различных форм</p>
+          </li>
+          <li class="advantages__item advantages-item">
+            <div class="advantages-item__img"></div>
+            <p class="advantages-item__text">Значимость этого настолько очевидна, что консультация наших экспертов помогает</p>
+          </li>
+        </ul>
+      </div>
     </section>
 <!-- -------------------------/section-advantages------------------------------- -->
+<!-- -------------------------section-accommodation-------------------------------- -->
+    <section class="accomodation">
+      <div class="container">
+        <h2 class="section-title">Размещение</h2>
+        <ul class="accomodation__list">
+          <li class="accomodation__item accomodation-item">
+            <p class="accomodation-item__price"><span>от</span> <strong>6 320 р</strong> / ночь</p>
+            <div class="accomodation-item__stars accomodation-item-stars">
+              <img src="img/stars.svg" alt="Рейтинг отеля 5 из 5" class="accomodation-item-stars__img">
+              <img src="img/stars.svg" alt="" class="accomodation-item-stars__img">
+              <img src="img/stars.svg" alt="" class="accomodation-item-stars__img">
+              <img src="img/stars.svg" alt="" class="accomodation-item-stars__img">
+              <img src="img/stars.svg" alt="" class="accomodation-item-stars__img">
+            </div>
+            <h3 class="accomodation-item__hotel-name">Lagoona española</h3>
+            <p class="accomodation-item__contry">Барселона, Испания</p>
+            <a href="" class="btn">Номера</a>
+          </li>
+          <li class="accomodation__item accomodation-item">
+            <!-- цена -->
+            <!-- звезда отеля -->
+            <!-- название отеля -->
+            <!-- страна -->
+            <a href="" class="btn">Номера</a>
+          </li>
+          <li class="accomodation__item accomodation-item">
+            <!-- цена -->
+            <!-- звезда отеля -->
+            <!-- название отеля -->
+            <!-- страна -->
+            <a href="" class="btn">Номера</a>
+          </li>
+          <li class="accomodation__item accomodation-item">
+            <!-- цена -->
+            <!-- звезда отеля -->
+            <!-- название отеля -->
+            <!-- страна -->
+            <a href="" class="btn">Номера</a>
+          </li>
+          <li class="accomodation__item accomodation-item">
+            <!-- цена -->
+            <!-- звезда отеля -->
+            <!-- название отеля -->
+            <!-- страна -->
+            <a href="" class="btn">Номера</a>
+          </li>
+          <li class="accomodation__item accomodation-item">
+            <img src="#" alt="" class="accomodation-item__img">
+            <!-- цена -->
+            <!-- звезда отеля -->
+            <!-- название отеля -->
+            <!-- страна -->
+            <a href="" class="btn">Номера</a>
+          </li>
+          <li class="accomodation__item accomodation-item">
+            <!-- цена -->
+            <!-- звезда отеля -->
+            <!-- название отеля -->
+            <!-- страна -->
+            <a href="" class="btn">Номера</a>
+          </li>
+          <li class="accomodation__item accomodation-item">
+            <!-- цена -->
+            <!-- звезда отеля -->
+            <!-- название отеля -->
+            <!-- страна -->
+            <a href="" class="btn">Номера</a>
+          </li>
+          <li class="accomodation__item accomodation-item">
+            <a href="" class="accomodation-item__">Номера</a>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
   <!-- -------------------------/main------------------------------- -->
-  <footer></footer>
+  <footer class="footer"></footer>
 </body>
 </html>
